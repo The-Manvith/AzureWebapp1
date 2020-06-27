@@ -32,7 +32,7 @@ namespace msvAzureWebapp1
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello Manvith welcome to Azure!");
                 });
             });
         }
